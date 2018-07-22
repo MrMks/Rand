@@ -1,3 +1,6 @@
+import com.github.MrMks.rand.group.Group;
+import com.github.MrMks.rand.RandExecutor;
+import com.github.MrMks.rand.utils.RandResult;
 
 public class test {
     public static void main(String[] args){

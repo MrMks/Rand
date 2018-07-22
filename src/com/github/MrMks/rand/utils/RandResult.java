@@ -1,22 +1,23 @@
+package com.github.MrMks.rand.utils;
 
 public class RandResult {
 	private boolean m;
     private Object r;
 
-    RandResult(boolean m, Object r) {
+    public RandResult(boolean m, Object r) {
         this.m = m;
         this.r = r;
     }
 
-    boolean find() {
+    public boolean find() {
         return m;
     }
 
-    String asString() {
+    public String asString() {
         return (String) r;
     }
 
-    String[] asArray() {
+    public String[] asArray() {
         return (String[]) r;
     }
 }

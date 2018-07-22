@@ -1,4 +1,4 @@
-＃Rand
+＃com.github.MrMks.rand.Rand
 
 注意:插件未经长期测试，请谨慎使用
 

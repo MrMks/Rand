@@ -1,3 +1,6 @@
+package com.github.MrMks.rand.group;
+
+import com.github.MrMks.rand.utils.NumberResult;
 
 public class SameCroup extends Group{
 

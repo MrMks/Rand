@@ -1,4 +1,4 @@
-name: Rand
+name: com.github.MrMks.rand.Rand
 author: MrMks
-main: Rand
+main: com.github.MrMks.rand.Rand
 version: snapshot

@@ -1,3 +1,7 @@
+package com.github.MrMks.rand;
+
+import com.github.MrMks.rand.group.Group;
+import com.github.MrMks.rand.utils.RandResult;
 import org.bukkit.command.BlockCommandSender;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
@@ -35,7 +39,7 @@ public class RandCommand extends Command {
                 commandSender.sendMessage(name+",");
             }
         	//commandSender.sendMessage("the command /rand can only use in CommandBlock");
-        	//commandSender.sendMessage("you can use other commands,and just replace the arguments with " + RandExecutor.read_able_pattern + " to get a random plugin");
+        	//commandSender.sendMessage("you can use other commands,and just replace the arguments with " + com.github.MrMks.rand.RandExecutor.read_able_pattern + " to get a random plugin");
             return false;
         }
     }

@@ -1,7 +1,9 @@
+package com.github.MrMks.rand.utils;
 
 public class NumberResult {
 	private Number n;
 	private int type;
+
 	public NumberResult(Number n, int type){
 		this.n= n;
 		this.type = type;

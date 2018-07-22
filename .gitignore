@@ -2,6 +2,6 @@
 .metadata/
 .classpath
 *.project
-Rand.userlibraries
+*.userlibraries
 *.iml
-Rand.eml
+*.eml

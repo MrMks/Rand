@@ -1,3 +1,5 @@
+package com.github.MrMks.rand;
+
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
 import org.bukkit.command.SimpleCommandMap;
@@ -18,7 +20,7 @@ public class Rand extends JavaPlugin implements Listener {
     @Override
     public void onLoad() {
         super.onLoad();
-        getLogger().info("Rand loaded");
+        getLogger().info("com.github.MrMks.rand.Rand loaded");
         
         //this.commandMap = ((CraftServer)getServer()).getCommandMap();
         try {

@@ -1,3 +1,7 @@
+package com.github.MrMks.rand.group;
+
+import com.github.MrMks.rand.utils.NumberResult;
+
 import java.util.ArrayList;
 
 public class DifferentGroup extends Group{
